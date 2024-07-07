@@ -1,0 +1,41 @@
+body {
+    font-family: fantasy;
+    font-size: 70px;
+    margin: 20px;
+    background-color:black;
+}
+
+h1 {
+  color: bisque;
+  font-family: fantasy;
+}
+
+#itemInput {
+    padding: 20px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left:  400px;
+    margin-top: 10px;
+}
+
+#addButton, #markButton, #clearButton {
+    padding: 20px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#shoppingList {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+    margin-left:  400px;
+    font-size: 30px;
+    list-style: square;
+    color: bisque;
+
+}
+
+.purchased {
+    text-decoration: line-through;
+    color: whitesmoke;
+}
